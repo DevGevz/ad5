@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(45, 45, 45);
+}
+.head, .middle, .footer{
+    background-color: rgba(0, 0, 0, 0.461);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.title{
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    color: rgba(255, 0, 0, 0.71);
+    text-decoration: overline double;
+}
+.middle{
+    text-align: center;
+}
+button{
+    padding-top: 50px;
+    padding-left: 80px;
+    margin: 20px;
+    font-weight: 600;
+    font-family: cursive;
+}
+#but1{
+    background-size: cover;
+    background-image: linear-gradient(to top,rgb(0, 136, 255), rgb(17, 255, 0) );
+}
+#but2{
+    background-size: cover;
+    background-image: linear-gradient(to left top,rgb(0, 136, 255),rgb(0, 255, 195), rgb(0, 255, 0), violet, rgb(172, 7, 172) );
+}
+#but3{
+    background-size: contain;
+    background-image: radial-gradient(  yellow, orange,red);
+}
+#but4{
+    background-size: contain;
+    background-image: linear-gradient(to left bottom, white, rgb(255, 165, 195));
+}
