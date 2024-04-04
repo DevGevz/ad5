@@ -21,7 +21,24 @@
         <a href="https://devgevz.github.io/ad4" target="_blank"><button id="but4">Projet 4</button></a>
     </div>
     <div class="footer">
+         <p>List_Monnaie= [500,100,50,20,1]
+List_Pieces_Rendues= [0,0,0,0,0]
 
+rep = int(input("Quelle somme à rendre? "))
+if rep <= 0:
+    print("Erreur")
+else:
+    Indexgen=0
+    while (rep >= List_Monnaie[-1])and (Indexgen < len(List_Monnaie)):
+        if rep >= List_Monnaie[Indexgen]:
+            rep = rep-List_Monnaie[Indexgen]
+            List_Pieces_Rendues[Indexgen] = List_Pieces_Rendues[Indexgen]+1
+        else:
+            Indexgen= Indexgen+1
+            
+for i in range(0, len(List_Pieces_Rendues)):
+    print(f"Le nombre de pièces de {List_Monnaie[i]} est égal à {List_Pieces_Rendues[i]}")
+</p>
     </div>
 </body>
 </html>
