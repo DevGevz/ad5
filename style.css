@@ -95,3 +95,33 @@ p{
     border-right: 7px solid white;
     padding-right: 10px;
 }
+@media screen and (max-width: 768px){
+    .title{
+        font-size: 20px;
+    }
+    .container{
+        padding: 0;
+        margin: 10px;
+        border: none;
+    }
+    .paragraphe{
+        padding: 15px;
+    }
+    .paragraphe h3{
+        font-size: 13px;
+    }
+    p{
+        font-size: 9px;
+        padding: 1px;
+    }
+    .c1{
+        margin-left: 1px;
+        margin-right: 25px;
+        box-shadow: 10px 15px 15px white;
+    }
+    .c2{
+        margin-right: 1px;
+        margin-left: 25px;
+        box-shadow: -10px 15px 15px white;
+    }
+}
